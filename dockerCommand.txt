@@ -1,0 +1,21 @@
+//show all images
+docker images
+//search image from docker hub
+docker search keyword
+//pull image from docker hub
+docker pull image_name:tag
+ex : docker pull ubuntu:16.04
+//remove image
+docker rm repository:tag_id
+ex: docker rm ubuntu:16.04
+docker rm image_id
+//run container from image
+ex: docker run -it image
+docker run -it ubuntu
+//show list container running
+docker ps
+//show all list container
+docker ps -a
+click exit to out container
+//để chạy vào container
+docker attach container_id

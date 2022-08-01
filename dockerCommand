@@ -1,7 +1,0 @@
-//show all images
-docker images
-//search image from docker hub
-docker search keyword
-pull image from docker hub
-docker pull image_name:tag
-ex : docker pull ubuntu:16.04
